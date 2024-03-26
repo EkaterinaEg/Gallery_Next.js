@@ -1,0 +1,26 @@
+{
+  "name": "gallery",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:schema": "node ./db/schema.mjs",
+    "db:seed": "node ./db/seed.mjs"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.5.6",
+    "dotenv": "^16.4.5",
+    "next": "13.5.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.72.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "13.5.5"
+  }
+}
